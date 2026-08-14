@@ -1,0 +1,282 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1203,3277" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Browser Chrome: 38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1130,3254" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" IsDisplayNameAuto="True" ScopeGuid="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1096,3013" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Default="Não foi dessa vez" Name="texto_final" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Começar o campeonato →'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1062,190" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="925, 258, 266, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Começar o campeonato →' tag='BUTTON' /&gt;" Guid="ece903ac-a2ee-4654-bf82-36ffa31c8f78" InformativeScreenshot="b97beb9367e169881a5190ca34e991aa.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Direto ao fim ⏭'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1062,190" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="576, 683, 124, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Direto ao fim ⏭' tag='BUTTON' /&gt;" Guid="84896bb5-0bf4-47e4-8c41-6d3366c6d0a2" InformativeScreenshot="e1153c3479679104924578bc4fbe042d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Pular mesmo assim ⏭'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="1062,190" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="843, 490, 235, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Pular mesmo assim ⏭' tag='BUTTON' /&gt;" Guid="8ede3975-45fc-414c-a66a-f4d1cb18bc47" InformativeScreenshot="bb794429cbee6950362588378481f2ab.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+            </uix:NClick>
+            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="524,2945" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+              <ui:InterruptibleWhile.Body>
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="522,2846" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NGetText DelayAfter="0" DelayBefore="0" DisplayName="Get Text 'É CAMPEÃO!'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="488,190" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" TextString="[texto_final]" Version="V5">
+                    <uix:NGetText.Target>
+                      <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="635, 264, 652, 68" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H1' type='' class='final-headline good' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="2222fa36-5319-4ddf-a2ba-97073b688b5d" ImageBase64="" InformativeScreenshot="3a53ba98f321a566578c50392873a076.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                    </uix:NGetText.Target>
+                  </uix:NGetText>
+                  <If Condition="[{&quot;É CAMPEÃO!&quot;, &quot;NÃO FOI DESSA VEZ&quot;, &quot;INVICTO... E SEM TAÇA&quot;}.Contains(texto_final)]" sap:VirtualizedContainerService.HintSize="488,2596" sap2010:WorkflowViewState.IdRef="If_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <If.Then>
+                      <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="486,678" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'Revanche (mesmo time)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,190" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="761, 636, 242, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Revanche (mesmo time)' tag='BUTTON' /&gt;" Guid="a1874261-99fd-4a8f-9a25-981fa852bbcb" InformativeScreenshot="499d014f074781c47926f7f78ea82344.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'Direto ao fim ⏭'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,190" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="576, 707, 124, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Direto ao fim ⏭' tag='BUTTON' /&gt;" Guid="fffd1885-1646-4323-bd11-b82e5b66743f" InformativeScreenshot="d7a493e20e7d8feeaafc85d9fd54e8dd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'Pular mesmo assim ⏭'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,190" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+                          <uix:NClick.Target>
+                            <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="843, 466, 235, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Pular mesmo assim ⏭' tag='BUTTON' /&gt;" Guid="23c3ad84-0fd3-4bf5-9e96-e288c19c1bc5" InformativeScreenshot="bb794429cbee6950362588378481f2ab.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                          </uix:NClick.Target>
+                        </uix:NClick>
+                        <ui:Continue sap:VirtualizedContainerService.HintSize="452,48" sap2010:WorkflowViewState.IdRef="Continue_1" />
+                      </Sequence>
+                    </If.Then>
+                    <If.Else>
+                      <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="486,1788" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="detalhes" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NGetText DisplayName="Get Text 'NÃO FOI DESSA VEZ'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,190" sap2010:WorkflowViewState.IdRef="NGetText_3" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" TextString="[detalhes]" Version="V5">
+                          <uix:NGetText.Target>
+                            <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="635, 282, 652, 23" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='P' type='' class='subtitle' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="d15822a3-5c4c-4705-b4e1-afc56a7638d0" ImageBase64="" InformativeScreenshot="ac4287b60162d52e4056f6db22d69db9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive">
+                              <uix:TargetAnchorable.Anchors>
+                                <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <uix:Target DesignTimeRectangle="635, 208, 652, 68" ElementType="Text" FuzzySelectorArgument="[string.Format(&quot;&lt;webctrl tag='H1' type='' class='final-headline bad' aaname='{0}' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='{0}' /&gt;&quot;, texto_final)]" Guid="736ce095-e7ca-484d-ad95-020446b1b1d5" SearchSteps="FuzzySelector" />
+                                </scg:List>
+                              </uix:TargetAnchorable.Anchors>
+                            </uix:TargetAnchorable>
+                          </uix:NGetText.Target>
+                        </uix:NGetText>
+                        <If Condition="[detalhes.Contains(&quot;DAC 2024: 38 vitórias&quot;)]" sap:VirtualizedContainerService.HintSize="452,447" sap2010:WorkflowViewState.IdRef="If_5">
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,283" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[Now.ToString]" />
+                              <ui:Break sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Break_2" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,25" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                        <If Condition="[texto_final = &quot;INVICTO!&quot; AndAlso detalhes.Contains(&quot;Invicto — mas o sonho do placar perfeito segue vivo.&quot;)]" sap:VirtualizedContainerService.HintSize="452,1091" sap2010:WorkflowViewState.IdRef="If_3">
+                          <If.Then>
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,678" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'Revanche (mesmo time)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="761, 636, 242, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Revanche (mesmo time)' tag='BUTTON' /&gt;" Guid="a1874261-99fd-4a8f-9a25-981fa852bbcb" InformativeScreenshot="499d014f074781c47926f7f78ea82344.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'Direto ao fim ⏭'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="576, 707, 124, 39" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Direto ao fim ⏭' tag='BUTTON' /&gt;" Guid="fffd1885-1646-4323-bd11-b82e5b66743f" InformativeScreenshot="d7a493e20e7d8feeaafc85d9fd54e8dd.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="0" DelayBefore="0" DisplayName="Click 'Pular mesmo assim ⏭'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="44cc5a6b-d3e0-4673-b6b5-7d22f56c2a3d" Version="V5">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="38zero.com.br" DesignTimeRectangle="843, 466, 235, 57" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Pular mesmo assim ⏭' tag='BUTTON' /&gt;" Guid="23c3ad84-0fd3-4bf5-9e96-e288c19c1bc5" InformativeScreenshot="bb794429cbee6950362588378481f2ab.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="Interactive" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <ui:Continue sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Continue_2" />
+                            </Sequence>
+                          </If.Then>
+                          <If.Else>
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="450,283" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                              <sap:WorkflowViewStateService.ViewState>
+                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                </scg:Dictionary>
+                              </sap:WorkflowViewStateService.ViewState>
+                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[Now.ToString]" />
+                              <ui:Break sap:VirtualizedContainerService.HintSize="416,48" sap2010:WorkflowViewState.IdRef="Break_3" />
+                            </Sequence>
+                          </If.Else>
+                        </If>
+                      </Sequence>
+                    </If.Else>
+                  </If>
+                </Sequence>
+              </ui:InterruptibleWhile.Body>
+              <ui:InterruptibleWhile.Condition>
+                <Literal x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="Literal`1_1" Value="True" />
+              </ui:InterruptibleWhile.Condition>
+            </ui:InterruptibleWhile>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1044" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="659a7b15869a5e4b8d1dbb1e78e753b2.jpg" Selector="&lt;html app='chrome.exe' title='38-0 — Jogo de Draft do Brasileirão | A Campanha Perfeita' /&gt;" Url="https://38zero.com.br/" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

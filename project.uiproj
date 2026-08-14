@@ -1,0 +1,6 @@
+{
+  "Name": "38zero",
+  "ProjectType": "Process",
+  "Description": "Automação para vencer no jogo 38zero",
+  "MainFile": "Montar Time.xaml"
+}

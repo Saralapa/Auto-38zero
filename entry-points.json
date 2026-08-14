@@ -1,0 +1,15 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "entryPoints": [
+    {
+      "filePath": "Montar Time.xaml",
+      "uniqueId": "1c015906-7b70-439c-b453-3e20c7bc41e5",
+      "type": "process"
+    },
+    {
+      "filePath": "Simular.xaml",
+      "uniqueId": "8b373b5d-82c4-4145-bcbf-b4ff984fce5f",
+      "type": "process"
+    }
+  ]
+}

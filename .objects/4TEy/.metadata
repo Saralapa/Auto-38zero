@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Firefox Gerenciador de extensões — Zen Browser",
+  "Type": "App",
+  "Id": "4TEyl191F0C-cKYFSR02iw",
+  "Reference": "sNEn7hnqWE6tfFDP91AYlw/4TEyl191F0C-cKYFSR02iw",
+  "Created": "2026-06-15T21:18:10.511816Z",
+  "Updated": "2026-06-15T21:18:10.511816Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.13.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
